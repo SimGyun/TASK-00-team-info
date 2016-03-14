@@ -1,0 +1,58 @@
+ .simgyun{
+	width: 100%;
+	background-color: rgb(26,27,33);
+	height: 700px;
+	z-index: -1;
+	.main-content{
+	width: 1200px;
+	margin: 0 auto;
+	}
+	.intro{
+		z-index: 5;
+		background-color: rgb(47,45,45);
+		margin: 100px 40px 40px 100px;
+		height: 500px;
+		width: 350px;
+		.info{
+			margin: 30px;
+			p{
+				color: #F57575;
+				font-size: 22px;
+				font-weight: 700;
+			}
+		}
+		.avatar{
+			left: 600px;
+			top: 60px;
+			h1{
+				color:#F57575;
+				text-align: center;
+			}
+			img{
+				height: 500px;
+				width: auto;
+			}
+		}
+	}
+	.mask{
+		z-index: 2;
+		width: 350px;
+		height: 500px;
+		margin: 90px 0 0 110px;
+		background-color: rgb(64,63,63);
+	}
+	.mask1{
+		z-index: 1;
+		width: 350px;
+		height: 500px;
+		margin: 80px 0 0 120px;
+		background-color: #4E4D4D; 
+	}
+}
+ .ps-a{
+ 	position: absolute;
+ }
+ .ps-r{
+ 	position: relative;
+ }
+	
